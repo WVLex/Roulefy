@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Другие мета-теги тут -->
+    <!-- Подключили адаптивность  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Подключили CSS-файл Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous">
+    <!-- После стилевого файла Bootstrap можно
+         написать собственные стили в теге <style> -->
+    <!-- А лучше подключить свой CSS-файл и описать свои стили в нём:
+        <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+      body {
+        background: #383838
+      }
+      h1 {
+        color: white
+      }
+      p {
+        color: white
+      }
+      .btn-primary {
+        background-color: orangered
+      }
+      .btn-success {
+        background-color: #1DB954
+      }
+      .disclamer {
+        font-size: 10px
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Классы Bootstrap можно применять и к семантическим блокам. -->
+  <div class="container">
+    <div>
+      <div class="container pt-0">
+        <div class="row">
+          <div class="pb-0 col-md-12 col">
+            <br>
+            <br>
+              <h1 class="text-center">Roulefy</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="pb-0 pt-5 text-center col col-12">
+          <p>Step 1: Войдите в Spotify</p>
+        </div>
+        <div class="py-0 text-center col col-12">
+          <p>Step 2: Выберите настройки игры&nbsp;</p>
+        </div>
+        <div class="py-0 text-center col col-12">
+          <p>Step 3: Пригласие других игроков&nbsp;</p>
+        </div>
+        <div class="py-0 text-center col col-12">
+          <p>Step 4: Начните игру</p>
+        </div>
+        <div class="py-0 text-center col col-12 text-white">
+          <strong>Будут проигрываться песни, которые вы лайкнули</strong>
+        </div>
+        <div class="pt-4 text-center col col-12">
+          <a href="/game/create/login" class="btn btn-success" style="min-width: 200px;">
+          <span class="v-btn__content">Войти в Spotify</span>
+        </a>
+          <div class="flex-center">
+            <div class="permission-hint">
+              <p class="disclamer text-center col col-12">*Вся информация, собранная для игры, будет удалена <br>
+              в течение 3-х часов после окончания игры</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-0 text-center col col-12">
+          <a href="/" aria-current="page" class="transparent btn--active btn btn--depressed btn--flat btn--outlined btn--router theme--dark size--x-large text-white" style="min-width: 250px;">
+            <span class="v-btn__content">НА ГЛАВНУЮ</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html> 

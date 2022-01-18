@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Другие мета-теги тут -->
+    <!-- Подключили адаптивность  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Подключили CSS-файл Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous">
+    <!-- После стилевого файла Bootstrap можно
+         написать собственные стили в теге <style> -->
+    <!-- А лучше подключить свой CSS-файл и описать свои стили в нём:
+        <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+      body {
+        background: #383838
+      }
+      h1 {
+        color: white
+      }
+      p {
+        color: white
+      }
+      .btn-primary {
+        background-color: orangered
+      }
+      .btn-success {
+        background-color: #1DB954
+      }
+      .disclamer {
+        font-size: 10px
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Классы Bootstrap можно применять и к семантическим блокам. -->
+  <div class="container">
+    <div>
+      <div class="container pt-0">
+        <div class="row">
+          <div class="pb-0 col-md-12 col">
+            <br>
+            <br>
+              <h1 class="text-center">Roulefy</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="pb-0 pt-5 text-center col col-12">
+          <p>Введите код комнаты в поле ниже, чтобы присоединиться к игре</p>
+        </div>
+        <div class="pb-0 text-center col col-12">
+          <div class="flex-center">
+            <div class="game-code-holder">
+              <div class="input ">
+                <div class="v-input__control">
+                  <div class="v-input__slot">
+                    <fieldset aria-hidden="true">
+                      <legend style="width: 0px;">
+                      </legend>
+                    </fieldset>
+                    <div class="row">
+                      <div class="col-5"></div>
+                      <input id="input" class="form-control col" type="text">
+                      <div class="col-5"></div>
+                    </div>
+                  </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-3 text-center col col-12">
+          <a href="/game/roomnum" class="btn btn-success" style="min-width: 200px;">
+          <span class="v-btn__content">Войти в комнату</span>
+        </a>
+          </div>
+        <div class="py-0 text-center col col-12">
+          <a href="/" aria-current="page" class="transparent btn--active btn btn--depressed btn--flat btn--outlined btn--router theme--dark size--x-large text-white" style="min-width: 250px;">
+            <span class="v-btn__content">НА ГЛАВНУЮ</span>
+          </a>
+        </div>
+  </body>
+</html> 
