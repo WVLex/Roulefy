@@ -6,3 +6,4 @@ db.db
 /roulefy/first/main.py
 /roulefy/db.sqlite3
 /roulefy/__init__.py
+/roulefy/first/config.py
