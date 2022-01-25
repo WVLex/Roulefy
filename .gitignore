@@ -3,7 +3,6 @@ venve
 db.db
 .idea
 /roulefy/sandbox.py
-/roulefy/first/main.py
 /roulefy/db.sqlite3
 /roulefy/__init__.py
 /roulefy/first/config.py
